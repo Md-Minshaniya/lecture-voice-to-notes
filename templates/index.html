@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lecture Voice to Notes</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<h1>Lecture Voice-to-Notes Generator</h1>
+
+<form method="POST" enctype="multipart/form-data">
+    <input type="file" name="audio" accept=".mp3,.wav,.m4a" required>
+    <br><br>
+    <button type="submit">Generate Notes</button>
+</form>
+
+{% if error %}
+    <p style="color:red;"><b>{{ error }}</b></p>
+{% endif %}
+
+{% if transcript %}
+    <h2>Transcript</h2>
+    <div class="box">{{ transcript }}</div>
+
+    <h2>Summary Notes</h2>
+    <div class="box">{{ summary }}</div>
+
+    <h2>Flashcards</h2>
+    <pre class="box">{{ flashcards }}</pre>
+{% endif %}
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+flask
+openai-whisper
+torch
+transformers
+sentencepiece
+ffmpeg-python

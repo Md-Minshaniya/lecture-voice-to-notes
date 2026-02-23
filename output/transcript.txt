@@ -1,0 +1,1 @@
+It is platform independent because it runs on the Java Virtual Machine. Java is widely used for web and enterprise applications.

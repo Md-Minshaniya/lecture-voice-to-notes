@@ -1,0 +1,1 @@
+ Java is platform independent because it runs on the Java Virtual Machine . Java is widely used for web and enterprise applications . It runs on a virtual machine that can be used to run web applications and is platform-independent . It is available to download and use in the wild for the first time in Java .

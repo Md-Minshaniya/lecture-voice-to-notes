@@ -1,0 +1,5 @@
+Q: It is platform independent because it runs on the Java Virtual Machine?
+A: It is platform independent because it runs on the Java Virtual Machine
+
+Q: Java is widely used for web and enterprise applications?
+A: Java is widely used for web and enterprise applications
