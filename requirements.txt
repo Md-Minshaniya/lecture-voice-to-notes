@@ -3,4 +3,6 @@ openai-whisper
 torch
 transformers
 sentencepiece
+
 ffmpeg-python
+gunicorn
